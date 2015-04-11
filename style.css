@@ -1,0 +1,195 @@
+#top-header {
+	height: 400px;
+	width: 100%;
+	background-color: #DC143C;
+	background: rgba(0,0,0,0,.5);
+	position: relative;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	font-size: 250%;
+	margin: 0 auto;
+	color: white;
+
+}
+
+#picture {
+	margin: 40px 0px 0px 0px;
+	border: 7px solid white;
+	border-radius: 2000px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	bottom: 190px;
+	width: 500px;
+	height: auto;
+}
+
+.sections {
+	
+	height: 300px;
+	width: 80%;
+	/*border: 1px solid black;*/
+	margin: 475px auto;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+
+button {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#intro {
+	text-align: center;
+}
+
+#links {
+	text-align: center;
+	/*display: inline-block;*/
+	margin: -20px auto 0 auto;
+	font-size: 200%;
+	padding: 0px 10px 0px 10px;
+}
+
+#intro {
+	font-size: 360%;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#section1 {
+	font-size: 275%
+}
+
+#section2 {
+	font-size: 275%
+}
+
+#section3 {
+	border: 1px solid black;
+	font-size: 215%
+}
+
+#section4 {
+	border: 1px solid black;
+	font-size: 215%
+}
+
+#resume {
+	font-size: 300%;
+	margin-top: 0px;
+	margin-bottom: -25px;
+	font-family: 'Lobster', cursive;
+}
+
+/*#br1 {*/
+	/*font-size: 250%;*/
+/*}*/
+
+#pat {
+	font-size: 200%;
+	margin-top: 0;
+	margin-bottom: -20px;
+	font-family: 'Lobster', cursive;
+}
+
+#top-header2 {
+	height: 400px;
+	width: 100%;
+	background-color: #DC143C;
+	background: rgba(0,0,0,0,.5);
+	position: relative;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	font-size: 250%;
+	margin: 0 auto;
+	color: white;
+}
+
+#main {
+	text-align: center;
+}
+
+#br1 {
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	background-image: url(http://subtlepatterns.com/patterns/symphony.png);
+	background-repeat: repeat;
+}
+
+#part1 {
+	font-size: 275%;
+
+}
+
+.spacer {
+	display: inline;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#part5 {
+	margin-top: 0 auto;
+}
+
+#top-header3 {
+	height: 400px;
+	width: 100%;
+	background-color: #DC143C;
+	background: rgba(0,0,0,0,.5);
+	position: relative;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	font-size: 250%;
+	margin: 0 auto;
+	color: white;
+}
+
+#contact {
+	font-family: 'Lobster', cursive;
+	font-size: 300%;
+}
+
+#phone {
+	position: relative;
+	font-size: 400%;
+	text-align: center;
+	top: 175px;
+	font-family: 'Amatic SC', cursive;
+}
+
+#email {
+	position: relative;
+	font-size: 400%;
+	text-align: center;
+	top: 200px;
+	font-family: 'Amatic SC', cursive;
+}
+
+#top-header4 {
+	height: 400px;
+	width: 100%;
+	background-color: #DC143C;
+	background: rgba(0,0,0,0,.5);
+	position: relative;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	font-size: 250%;
+	margin: 0 auto;
+	color: white;
+}
+
+#project {
+	font-family: 'Lobster', cursive;
+	font-size: 300%;
+}
+
+.github {
+	text-align: center;
+	font-size: 150%;
+}

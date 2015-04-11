@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pat Doyle</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+  <header>
+   <div id="top-header4" class="container">
+     <br>
+     <br>
+     <h1 id="project">Projects</h1>
+   </div>
+ </header>
+
+
+ <div class="github">
+  
+ </div>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+ <script>$.ajax({
+  url: 'https://api.github.com/user/repos?access_token=e7b0ce9fbdf5c5a95c2f720424f2488e8f45c97f',
+  success: function(data) {
+  	// console.log(data);
+  	for(var i=0; i<data.length; i++) {
+  		console.log(data[i].name);
+  		$('.github').append("<p><a href='"+data[i].html_url+"'>"+data[i].name+"</a></p>");
+  		console.log(data[i].html_url);
+  	}
+  	// write a loop to iterate over all the repos
+  	// for each repo, run the code below
+  	// replacing things as necessary
+    var repoLink = $('<a href=""></a>');
+    repoLink.attr('href', data[0].html_url);
+
+    repoLink.text(data[0].name);
+    $('body').append(repoLink);
+  }
+});
+</script>
+
+</body>
+</html>
