@@ -77,7 +77,8 @@ $.ajax({
   	// write a loop to iterate over all the repos
   	// for each repo, run the code below
   	// replacing things as necessary
-    var repoLink = $('<a href=""></a>');
+    
+    // var repoLink = $('<a href=""></a>');
     repoLink.attr('href', data[0].html_url);
 
 
